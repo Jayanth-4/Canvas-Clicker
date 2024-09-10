@@ -1,4 +1,4 @@
-Canvas Paint App with Strike Detection : 
+Canvas Paint App with Strike Detection : https://jayanth-4.github.io/Canvas-Clicker/
 ---------------------------------------
 
 Project Overview:-
