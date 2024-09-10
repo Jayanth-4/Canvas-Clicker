@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+  }
+.container{
+    width: 100%;
+    height: 100dvh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    
+    font-size: 0.8rem;
+    width: 700;
+    margin: 2em auto 0em auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 2px rgb(255, 255, 255);
+
+}
+#heading img{
+    
+    width: 45px;
+    height: 45px;
+}
+#paintCanvas{ 
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.118);
+    backdrop-filter: blur(20px);
+    border-radius: 1em;
+}
+#btn{
+    width: 700;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#resetButton{
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.654);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5em;
+    font-size: 1.3rem;
+    padding: 0.1em 0.8em;
+    color: whitesmoke;
+}
+#resetButton:hover{
+    background-color: rgba(245, 245, 245, 0.532);
+    backdrop-filter: blur(10px);
+    color: black;
+    cursor: pointer;
+}
+
+#status{
+    font-size: 1.5rem;
+    color:rgb(0, 115, 0);
+    
+    
+}
